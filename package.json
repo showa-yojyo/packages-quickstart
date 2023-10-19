@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Quickstart for GitHub Packages - GitHub Docs",
   "main": "index.js",
+  "publishConfig": {
+    "@showa-yojyo:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "exit 0"
   },
